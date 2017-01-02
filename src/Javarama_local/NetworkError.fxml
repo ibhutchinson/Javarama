@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="1280.0" minWidth="10.0" prefWidth="1280.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="415.07794189453125" minWidth="0.0" prefWidth="0.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="267.0" minHeight="1.0" prefHeight="122.71360778808594" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="632.0" minHeight="0.0" prefHeight="597.2863922119141" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Region prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" />
+      <Region prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" GridPane.columnIndex="1" />
+      <Region pickOnBounds="false" prefHeight="330.0" prefWidth="550.0" style="-fx-background-color: #77c9d4;" GridPane.rowIndex="1" />
+      <Region prefHeight="337.0" prefWidth="445.0" style="-fx-background-color: #57bc90;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Label alignment="BOTTOM_CENTER" prefHeight="49.0" prefWidth="323.0" text="Javarama" textFill="#015249">
+         <font>
+            <Font name="Monaco" size="52.0" />
+         </font>
+      </Label>
+      <GridPane prefHeight="100.0" prefWidth="100.0" vgap="5.0" GridPane.rowIndex="1">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="552.2726745605469" minWidth="10.0" prefWidth="278.81939697265625" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="792.2310791015625" minWidth="286.7273254394531" prefWidth="792.2310791015625" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="943.3937683105469" minWidth="10.0" prefWidth="209.7689208984375" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="383.5614318847656" minHeight="10.0" prefHeight="133.02395629882812" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="411.0" minHeight="10.0" prefHeight="379.8750305175781" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="352.0672912597656" minHeight="0.0" prefHeight="31.124969482421875" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="241.50732421875" minHeight="0.0" prefHeight="45.54034423828125" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label alignment="TOP_LEFT" layoutX="376.0" layoutY="260.0" prefHeight="392.0" prefWidth="794.0" text="Network Error: This application requires an internet connection. Please connect to the internet and restart the application." textFill="WHITE" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+               <font>
+                  <Font name="Monaco" size="34.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+   </children>
+</GridPane>
