@@ -19,8 +19,8 @@ public class DatabaseConnect {
 
     public DatabaseConnect() throws Exception {
         Class.forName("com.mysql.jdbc.Driver");
-        URL = "jdbc:mysql://76.162.254.178/BBBmj51_javarama";
-        conn = DriverManager.getConnection(URL, "BBBmj51_jradmin", "aWFk4u5R");
+        URL = "";
+        conn = DriverManager.getConnection(URL, "", "");
 
     }
 
